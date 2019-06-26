@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contoller.Login">
+   <children>
+        <Label layoutX="266.0" layoutY="151.0" text="Login" />
+        <Button fx:id="adminLogin" layoutX="231.0" layoutY="200.0" onAction="#adminLogin" text="Login as Admin" />
+      <Button fx:id="cashierLogin" layoutX="231.0" layoutY="253.0" onAction="#cashierLogin" text="Login as Cashier" />
+   </children>
+</AnchorPane>
