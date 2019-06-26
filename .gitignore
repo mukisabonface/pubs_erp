@@ -1,0 +1,26 @@
+# java specific
+*.bak
+*.class
+
+#intellij specific
+.idea/
+*.iml
+*.ipr
+*.iws
+
+#gradle specific
+.gradle/
+
+#temp build
+[Bb]uild*/
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+
+#debug specific
+*.log
+
+#windows Junk
+*.ini
+[Tt]humbs.db
+*.DS_Store
